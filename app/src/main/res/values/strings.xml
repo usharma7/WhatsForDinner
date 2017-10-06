@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">"What's For Dinner? "</string>
+    <string name="recipie_hint">"What's For Dinner? "</string>
+    <string name="title_activity_new_dish">NewDish</string>
 </resources>
