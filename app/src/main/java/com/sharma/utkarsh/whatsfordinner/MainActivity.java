@@ -1,6 +1,7 @@
 package com.sharma.utkarsh.whatsfordinner;
 
 import android.content.Intent;
+import android.media.Image;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -37,6 +38,17 @@ public class MainActivity extends AppCompatActivity {
 
                 startActivity(new Intent(getApplicationContext(), NewDish.class));
 
+            }
+
+
+        });
+
+        ImageButton recipe = (ImageButton) findViewById(R.id.RecipieBtn);
+        recipe.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                startActivity(new Intent(getApplicationContext(), RecipieScreen.class));
             }
         });
 
