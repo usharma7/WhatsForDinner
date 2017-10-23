@@ -1,6 +1,7 @@
 package com.sharma.utkarsh.whatsfordinner;
 
 import android.content.Intent;
+import android.icu.text.IDNA;
 import android.media.Image;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -35,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
         im.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                startActivity(new Intent(getApplicationContext(), InfoScreen.class));
             }
         });
 
