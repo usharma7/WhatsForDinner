@@ -32,6 +32,13 @@ public class MainActivity extends AppCompatActivity {
         ImageButton menu = (ImageButton) findViewById(R.id.menuBtn);
         ImageButton add= (ImageButton)findViewById(R.id.addBtn);
 
+        im.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+            }
+        });
+
         add.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

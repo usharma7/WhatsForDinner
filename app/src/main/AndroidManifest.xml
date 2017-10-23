@@ -24,8 +24,8 @@
         <activity
             android:name=".RecipieScreen"
             android:label="@string/title_activity_recipie_screen"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".InfoScreen"></activity>
     </application>
-
 
 </manifest>

@@ -4,5 +4,9 @@
     <string name="title_activity_new_dish">NewDish</string>
     <string name="ingredient_hint">Enter a new ingredient</string>
     <string name="title_activity_recipie_screen">RecipieScreen</string>
+    <string name ="copyright">Copyright Utkarsh Sharma 2017</string>
+    <string name="help">For help please see www.github.com/usharma7/Whatsfordinner</string>
+    <string name="version">v.7.0</string>
+    <string name="authorname">Utkarsh Sharma</string>
 
 </resources>
